@@ -2,5 +2,6 @@ from django.db import models
 
 class Post(models.Model):
     Status_choices = (
-        'published', 'Published', 
+        'published', 'Published', 'draft', 'Draft'
     )
+    
