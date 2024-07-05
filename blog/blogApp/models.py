@@ -15,4 +15,4 @@ class Post(models.Model):
     
 
 class Comment(models.Model):
-    post = 
+    post = models.ForeignKey(Po)
