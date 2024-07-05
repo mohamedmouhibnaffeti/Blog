@@ -9,4 +9,6 @@ class Post(models.Model):
     author = models.CharField(max_length=200)
     published_date = models.DateTimeField(auto_now_add=True)
     status = models.CharField(choices=Status_choices)
-    
+
+    def __str__(self):
+        return self
