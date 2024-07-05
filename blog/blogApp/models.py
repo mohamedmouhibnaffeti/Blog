@@ -11,4 +11,5 @@ class Post(models.Model):
     status = models.CharField(choices=Status_choices)
 
     def __str__(self):
-        return self
+        return self.title
+    
