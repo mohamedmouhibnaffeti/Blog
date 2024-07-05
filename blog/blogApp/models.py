@@ -5,4 +5,4 @@ class Post(models.Model):
         'published', 'Published', 'draft', 'Draft'
     )
     title = models.CharField(max_length=200)
-    
+    content = models
